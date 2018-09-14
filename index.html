@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Comedy Shows and Movies</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <button data-comedy="Seinfeld">Seinfeld</button>
+    <button data-comedy="Martin">Martin</button>
+    <button data-comedy="Fresh Prince">Fresh Prince</button>
+    <button data-comedy="Mad TV">Mad TV</button>
+    <button data-comedy="SNL">SNL</button>
+    <button data-comedy="Silicon Valley">Silicon Valley</button>
+    <button data-comedy="Curb Your Enthusiam">Curb Your Enthusiam</button>
+    <div id="gifs-appear-here">
+    </div>  
+
+    <div id="gifs" style="float:left"></div>
+
+<!-- Write in section -->
+<div style="float:right; margin-top:90px;">
+ <h4>Add a Comedy show</h4>
+    <form id="gif-form">
+        <label for="gif-input"></label>
+        <input type="text" value="" id="gif-input"><br><br>
+        <!--Creates the submit button-->
+        <input type="submit" name="Button" class="btn btn-success" id="theButton" style="margin-left:8px">
+    </form>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>    
+    
+</body>
+</html>
